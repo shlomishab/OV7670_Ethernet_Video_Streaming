@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>design_1_ov7670_camera_0_0</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
+        <spirit:displayName>Synthesis</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:modelName>top_project2</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Tue Nov 10 11:07:32 UTC 2020</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:5d098758</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_synthesisconstraints</spirit:name>
+        <spirit:displayName>Synthesis Constraints</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis.constraints</spirit:envIdentifier>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:5d098758</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_vhdlsynthesiswrapper</spirit:name>
+        <spirit:displayName>VHDL Synthesis Wrapper</spirit:displayName>
+        <spirit:envIdentifier>vhdlSource:vivado.xilinx.com:synthesis.wrapper</spirit:envIdentifier>
+        <spirit:language>vhdl</spirit:language>
+        <spirit:modelName>design_1_ov7670_camera_0_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlsynthesiswrapper_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Tue Nov 10 11:07:32 UTC 2020</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:5d098758</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:modelName>top_project2</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Tue Nov 10 11:07:32 UTC 2020</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:70e71a63</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_vhdlsimulationwrapper</spirit:name>
+        <spirit:displayName>VHDL Simulation Wrapper</spirit:displayName>
+        <spirit:envIdentifier>vhdlSource:vivado.xilinx.com:simulation.wrapper</spirit:envIdentifier>
+        <spirit:language>vhdl</spirit:language>
+        <spirit:modelName>design_1_ov7670_camera_0_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlsimulationwrapper_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Tue Nov 10 11:07:32 UTC 2020</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:70e71a63</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_externalfiles</spirit:name>
+        <spirit:displayName>External Files</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:external.files</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_externalfiles_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Tue Nov 10 11:14:07 UTC 2020</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>outputProductCRC</spirit:name>
+            <spirit:value>9:5d098758</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>OV7670_D</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>OV7670_PCLK</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>OV7670_VSYNC</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>OV7670_HREF</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_a</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">11</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>address_a</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">16</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>we_a</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>clk50</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>clk25</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>vga_red</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>vga_green</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>vga_blue</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>vga_hsync</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>vga_vsync</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+  </spirit:model>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>src/blk_mem_gen_0_5/blk_mem_gen_0.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/RGB.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/address_generator.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/ov7670_capture.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/vga.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/ov7670_camera.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlsynthesiswrapper_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>synth/design_1_ov7670_camera_0_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>src/blk_mem_gen_0_5/blk_mem_gen_0.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/RGB.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/address_generator.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/ov7670_capture.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/vga.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>../../ipshared/45c6/ov7670_camera.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlsimulationwrapper_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>sim/design_1_ov7670_camera_0_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_externalfiles_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>design_1_ov7670_camera_0_0.dcp</spirit:name>
+        <spirit:userFileType>dcp</spirit:userFileType>
+        <spirit:userFileType>USED_IN_implementation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_synthesis</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_ov7670_camera_0_0_stub.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_ov7670_camera_0_0_stub.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_ov7670_camera_0_0_sim_netlist.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>design_1_ov7670_camera_0_0_sim_netlist.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
+        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>ov7670_camera_v1_0</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">design_1_ov7670_camera_0_0</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:displayName>ov7670_camera_v1_0</xilinx:displayName>
+      <xilinx:definitionSource>package_project</xilinx:definitionSource>
+      <xilinx:xpmLibraries>
+        <xilinx:xpmLibrary>XPM_MEMORY</xilinx:xpmLibrary>
+      </xilinx:xpmLibraries>
+      <xilinx:coreRevision>3</xilinx:coreRevision>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="nopcore"/>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d0f4fdc_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2181dd57_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f84d5fb_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65e7d74a_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32c142e3_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ed6390c_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2445c034_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7dd23040_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b349d8b_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f922990_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44a5d520_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48f67f04_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bafe016_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@df0c2fd_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b1b1c4c_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37661d0_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@224bd40f_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23e9f307_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60d789f7_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32be1d8f_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d60d7aa_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d146c2a_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@120984aa_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e4298bc_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7fa20c1_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@497566ec_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66e967d4_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b14c311_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a856b3_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e9e5dc6_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e1b4a90_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6bbfe6f3_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d1124c9_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6dd7ccae_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d725931_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fdafcb1_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ba0b03d_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b23b7ba_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6700e577_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58d0e718_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18f46a31_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d518309_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45c01600_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28613aaa_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6141f7b9_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d21ab62_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ac8369c_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f29f714_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c5f7f78_ARCHIVE_LOCATION">c:/Users/Shlomi.Shab/Desktop/streamer/low_res/camera_ip</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2019.1</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="4437556d"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="d45f59e9"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="51c0af6f"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>
